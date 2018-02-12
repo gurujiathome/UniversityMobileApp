@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Map</title>
+        
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        
+        <!--Scripts-->
+        <script src="../js/jquery.min.js"></script>
+        <script src="../js/jquery.mobile.min.js"></script>
+        <script src="../cordova.js"></script>
+        
+        <!--Stylesheets-->
+        <link rel="stylesheet" href="../css/jquery.mobile.min.css"/>
+        <link rel="stylesheet" href="../css/alhikmah.min.css"/>
+        <link rel="stylesheet" href="../css/custom.css"/>
+        
+    </head>
+    <body>
+        <!--Page: Campus Map-->
+        <div data-role="page" id="student_tools" data-theme="b">
+            <div data-role="header" data-position="fixed" data-tap-toggle="false">
+                <a href="#"
+                    data-rel="back"
+                    rel="external"
+                    data-icon="carat-l"
+                    class="ui-btn-left">Back</a>
+                <h1>Map</h1>
+            </div>
+            <div data-role="content">
+              <ul data-role="listview" data-inset="true">
+                <!--Main Campus Google Map Link-->
+                <li>
+                    <a href="geo:8.4826911,4.5038666" data-transition="slide">Main Campus Map</a>
+                </li>
+                <!--Igbaja Campus Google Map Link-->
+                <li>
+                    <a href="geo:8.3520455,4.8582038" data-transition="slide">Igbaja Campus Map</a>
+                </li>
+                <!--Get Directions Link-->
+                <li>
+                    <a href="directions_map.html" data-transition="slide">Get Directions</a>
+                </li>
+              </ul>
+            </div>
+		</div><!--Page-->
+    </body>
+</html>

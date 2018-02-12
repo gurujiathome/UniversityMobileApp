@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Home</title>
+      <!-- Meta-tags -->
+      <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+      <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0"/>
+
+      <!--StyleSheets-->
+      <link rel="stylesheet" type="text/css" href="css/jquery.mobile.min.css">
+      <link rel="stylesheet" type="text/css" href="css/alhikmah.min.css">
+      <link rel="stylesheet" href="css/custom.css" />
+
+      <!--JavaScript-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/jquery.mobile.min.js"></script>
+      <script type="text/javascript" src="cordova.js"></script>      
+  </head>
+  <body>
+      <!--Page: HomePage-->
+      <div id="home" data-role="page" data-theme="b">
+        <div data-role="header">
+          <h1></h1>
+        </div>
+        <div data-role="content">
+          <img id="au_header" src="images/au_header.png">
+          <div class="ui-grid-a grids ui-controlgroup">
+            <!--Block: Discover H.U.I-->
+           <div class="ui-block-a">
+              <a href="html/hui.html" data-transition="slide" rel="external">
+                 <img src="images/hui.png">
+                 <p>Discover H.U.I</p>
+              </a>
+           </div>
+           <!--Block: Apply Now-->
+           <div class="ui-block-b">
+              <a href="#" onClick="window.open('http://admissions.alhikmah.edu.ng','_blank','location=yes');return false;">
+                 <img src="images/library.png">
+                 <p>Apply Now</p>
+              </a>
+           </div>
+           <!--Block: Student Tools-->
+           <div class="ui-block-a">
+              <a href="html/student_tools.html" data-transition="slide">
+                 <img src="images/student.png">
+                 <p>Student Tools</p>
+              </a>
+           </div>
+           <!--Block: Map-->
+           <div class="ui-block-b">
+              <a href="html/maps.html" data-transition="slide" rel="external">
+                 <img src="images/marker.png">
+                 <p>Map</p>
+              </a>
+           </div>
+           <!--Block: Social News-->
+           <div class="ui-block-a">
+              <a href="html/news.html" data-transition="slide">
+                 <img src="images/message.png">
+                 <p>Social News</p>
+              </a>
+           </div>
+           <!--Block: Get Help-->
+           <div class="ui-block-b">
+              <a href="html/contacts.html" data-transition="slide">
+                 <img src="images/phone.png">
+                 <p>Get Help</p>
+              </a>
+           </div>
+           <!--Block: Share App-->
+           <div class="ui-block-a">
+              <a href="#" onclick="window.plugins.socialsharing.share('Download The Official Mobile App of Al-Hikmah University, Ilorin, Nigeria',
+                                  null,
+                                  null,
+                                  'https://play.google.com/store/apps/details?id=ng.edu.alhikmah.al-hikmah_university')">
+                 <img src="images/share.png">
+                 <p>Share App</p>
+              </a>
+           </div>
+           <!--Block: About App-->
+           <div class="ui-block-b">
+              <a href="html/about.html" data-transition="slide">
+                 <img src="images/info.png">
+                 <p>About App</p>
+              </a>
+           </div>
+        </div>
+      </div>
+
+    </div><!--Page-->
+    
+  </body>
+</html>
